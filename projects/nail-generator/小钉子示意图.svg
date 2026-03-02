@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="800" fill="white"/>
+  
+  <!-- 标题 -->
+  <text x="300" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">小钉子设计图</text>
+  <text x="300" y="65" text-anchor="middle" font-size="14" fill="#666">尺寸单位：mm | 建议层高0.15mm打印</text>
+  
+  <!-- 缩放比例：1mm = 8px -->
+  <!-- 中心线 -->
+  <line x1="300" y1="100" x2="300" y2="650" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- 参数 -->
+  <!-- 尖头：4mm高，底部Ø3mm -->
+  <polygon points="300,600 288,568 312,568" fill="#87CEEB" stroke="#333" stroke-width="2"/>
+  <text x="330" y="585" font-size="14" fill="#333">尖头 4mm</text>
+  
+  <!-- 钉体：20mm长，Ø3mm -->
+  <rect x="288" y="408" width="24" height="160" fill="#4A90E2" stroke="#333" stroke-width="2"/>
+  <text x="330" y="488" font-size="14" fill="#333">钉体 Ø3mm × 20mm</text>
+  
+  <!-- 环槽：2mm高，Ø8mm -->
+  <rect x="272" y="392" width="56" height="16" fill="#87CEEB" stroke="#333" stroke-width="2"/>
+  
+  <!-- 钉头：10mm高，Ø10mm -->
+  <rect x="260" y="312" width="80" height="80" fill="#4A90E2" stroke="#333" stroke-width="2"/>
+  <!-- 钉头顶部椭圆效果 -->
+  <ellipse cx="300" cy="312" rx="40" ry="5" fill="#5BA0F3" stroke="#333" stroke-width="2"/>
+  <text x="350" y="352" font-size="14" fill="#333">钉头 Ø10mm × 10mm</text>
+  
+  <!-- 尺寸标注线 -->
+  <!-- 总高 -->
+  <line x1="380" y1="312" x2="380" y2="600" stroke="#333" stroke-width="1"/>
+  <line x1="375" y1="312" x2="385" y2="312" stroke="#333" stroke-width="1"/>
+  <line x1="375" y1="600" x2="385" y2="600" stroke="#333" stroke-width="1"/>
+  <text x="390" y="460" font-size="14" fill="#333">总高 36mm</text>
+  
+  <!-- 各部分尺寸 -->
+  <line x1="220" y1="312" x2="220" y2="392" stroke="#666" stroke-width="1"/>
+  <line x1="215" y1="312" x2="225" y2="312" stroke="#666" stroke-width="1"/>
+  <line x1="215" y1="392" x2="225" y2="392" stroke="#666" stroke-width="1"/>
+  <text x="180" y="355" font-size="12" fill="#666">10mm</text>
+  
+  <line x1="220" y1="392" x2="220" y2="408" stroke="#666" stroke-width="1"/>
+  <line x1="215" y1="408" x2="225" y2="408" stroke="#666" stroke-width="1"/>
+  <text x="190" y="402" font-size="12" fill="#666">2mm</text>
+  
+  <line x1="220" y1="408" x2="220" y2="568" stroke="#666" stroke-width="1"/>
+  <line x1="215" y1="568" x2="225" y2="568" stroke="#666" stroke-width="1"/>
+  <text x="180" y="490" font-size="12" fill="#666">20mm</text>
+  
+  <line x1="220" y1="568" x2="220" y2="600" stroke="#666" stroke-width="1"/>
+  <line x1="215" y1="600" x2="225" y2="600" stroke="#666" stroke-width="1"/>
+  <text x="190" y="588" font-size="12" fill="#666">4mm</text>
+  
+  <!-- 打印建议 -->
+  <text x="50" y="680" font-size="16" font-weight="bold" fill="#333">打印建议：</text>
+  <text x="50" y="705" font-size="14" fill="#666">• 材料：PLA / PETG</text>
+  <text x="50" y="725" font-size="14" fill="#666">• 层高：0.15mm（保证细钉强度）</text>
+  <text x="50" y="745" font-size="14" fill="#666">• 墙厚：3-4层 或 填充100%</text>
+  <text x="50" y="765" font-size="14" fill="#666">• 方向：尖头朝上打印，减少支撑</text>
+</svg>
