@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_name": "",
+    "project_type": "",
+    "client_name": "",
+    "appraisal_date": "",
+    "appraisal_purpose": ""
+  },
+  "basic_info": {
+    "property_name": "",
+    "property_address": "",
+    "property_type": "",
+    "owner": ""
+  },
+  "physical_info": {
+    "building_area": "",
+    "land_area": "",
+    "floor_count": "",
+    "current_floor": "",
+    "build_year": "",
+    "structure": ""
+  },
+  "rights_info": {
+    "certificate_no": "",
+    "land_certificate": "",
+    "land_use_type": "",
+    "land_use_period": ""
+  },
+  "rental_info": {
+    "current_rent": "",
+    "lease_start": "",
+    "lease_end": "",
+    "tenant": ""
+  },
+  "attached_documents": [],
+  "extraction_status": {
+    "extraction_date": "",
+    "source_files": [],
+    "missing_fields": [],
+    "confidence_level": ""
+  }
+}
